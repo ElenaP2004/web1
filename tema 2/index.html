@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezentare Mașină</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #333; color: white; text-align: center; padding: 15px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        main { padding: 20px; }
+        section { margin-bottom: 40px; }
+        .gallery img { width: 100%; max-width: 600px; display: block; margin: 10px auto; }
+        form input, form textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        form button { background: #333; color: white; padding: 10px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mașina Ta de Vis</h1>
+        <nav>
+            <a href="#descriere">Descriere</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#specificatii">Specificații</a>
+            <a href="#performanta">Performanță</a>
+            <a href="#dotari">Dotări</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="descriere">
+            <h2>Descriere</h2>
+            <p><strong>Model:</strong> BMW Seria 3</p>
+            <p><strong>An fabricație:</strong> 2022</p>
+            <p><em>O combinație perfectă între eleganță și performanță.</em></p>
+            <p>BMW Seria 3 este un sedan premium, ideal pentru cei care caută un echilibru între confort, tehnologie și sportivitate.</p>
+        </section>
+        <section id="galerie" class="gallery">
+            <h2>Galerie</h2>
+            <img src="poza1.jpg" alt="BMW față">
+            <img src="poza2.jpg" alt="BMW interior">
+            <img src="poza3.jpg" alt="BMW spate">
+        </section>
+        <section id="specificatii">
+            <h2>Specificații</h2>
+            <ul>
+                <li>Motor: 2.0L Turbo</li>
+                <li>Putere: 184 CP</li>
+                <li>Transmisie: Automată</li>
+                <li>Consum: 6.1L/100km</li>
+                <li>Tracțiune: Spate</li>
+            </ul>
+        </section>
+        <section id="performanta">
+            <h2>Performanță</h2>
+            <p>BMW Seria 3 accelerează de la 0-100 km/h în doar 7.1 secunde, oferind o experiență de condus dinamică și plăcută.</p>
+        </section>
+        <section id="dotari">
+            <h2>Dotări</h2>
+            <ul>
+                <li>Sistem de navigație</li>
+                <li>Scaune din piele încălzite</li>
+                <li>Sistem audio premium</li>
+                <li>Senzori de parcare</li>
+                <li>Faruri LED adaptive</li>
+            </ul>
+        </section>
+        <section id="anunt">
+            <h2>Anunț</h2>
+            <p><strong>Preț:</strong> 35,000€</p>
+            <p><strong>Contact:</strong> +40 712 345 678</p>
+            <p><strong>Locație:</strong> Sibiu, România</p>
+            <p>Dacă ești interesat de această mașină, nu ezita să mă contactezi pentru mai multe detalii!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="mesaj">Mesaj:</label>
+                <textarea id="mesaj" rows="4" required></textarea>
+                
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Prezentare Auto</p>
+    </footer>
+</body>
+</html>
